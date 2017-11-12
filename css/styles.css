@@ -89,13 +89,14 @@ p {
   font-style: italic;
   font-weight: 600;
   color: rgb(43, 93, 240);
+
 }
 
 /*Media Query*/
 
-@media screen and (max-width: 1660px) {
+@media screen and (max-width: 1600px) {
   /*.resume {
-    background-color: blue;
+  background-color: blue;
   }*/
 
   .part{
@@ -106,10 +107,17 @@ p {
   .sidebar{
     width: 100px;
   }
+
+  .tag{
+     white-space: nowrap;
+   }
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1024px){
   .resume {
-  width: 100%;
+    width: 100%;
   }
+  .tag{
+     white-space: nowrap;
+   }
 }
